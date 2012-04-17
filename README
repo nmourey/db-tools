@@ -1,0 +1,31 @@
+MySQL Database Tools.  
+Copyright © 2011 Nathan A. Mourey II <nmoureyii@ne.rr.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+-------------------------------------------------------------------------------
+
+MySQL Databases Tools.  These are some tools that allow you to simply 
+view database schemas and create databases for individual users.  These
+tools where originally made to make life easier for my college professor.
+
+NOTE:
+	In order to create database there must be a corasponding account
+on the system.  These tools have only been tested on Linux / CentOS.  They 
+will most likely not work on Windows platform.  There is more documentation
+in the ./docs directory.  The documentation needs more work.  With that in
+mind setup and configuing these tools still should be straight forward.
+
+Good Luck!
+

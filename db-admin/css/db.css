@@ -1,0 +1,114 @@
+body {
+	margin-left: 5em;
+	margin-right: 5em;
+	font: 76% Arial, sans-serif;
+	background-color: lightblue;
+}
+
+#copyright {
+	position: absolute;
+	/* text-align: center; */
+	bottom: 0;
+	left: 30%;
+}
+#title {
+	text-align: center;
+	border-bottom: 1px dotted;
+}
+
+#author {
+	text-align: center;
+
+}
+
+#leg {
+	font: 76% Arial, sans-serif;
+}
+
+#error_mesg {
+	font: 120% Helvetica, sans-serif;	
+}
+
+#added {
+	font: 120% Helvetica, sans-serif;	
+}
+
+#name {
+	font: 120% Helvetica, sans-serif;	
+	font-style: italic;
+	color: purple;
+	
+}
+#db_name {
+	font: 120% Helvetica, sans-serif;	
+	font-style: italic;
+	color: purple;
+}
+
+#pass_notice {
+	font: 76% Helvetica, sans-serif;	
+	font-style: italic;
+}
+
+#in_db {
+	font: 76% Helvetica, sans-serif;	
+	font-style: italic;
+}
+
+#back {
+	text-align: center;
+	font: 120% Helvetica, sans-serif;	
+	font-style: italic;
+	padding: .75em;
+}
+
+#back_span {
+	font: 120% Helvetica, sans-serif;	
+	text-align: center;
+}
+
+#in_db_now {
+	font: 100% Helvetica, sans-serif;	
+	font-style: italic;
+}
+
+#dbnow {
+	text-align: center;
+	font: 76% Helvetica, sans-serif;	
+	font-style: italic;
+}
+
+#user_db {
+	text-align: center;
+	font: 76% Helvetica, sans-serif;	
+	font-style: italic;
+	padding: .75em;
+}
+#username {
+	padding: 2em;
+	font: 150% Arial, sans-serif;	
+}
+
+#form_div {
+	padding-top: 2em; 
+	font: 150% Arial, sans-serif;	
+}
+
+#add_div {
+	text-align: center;
+	font-size: 110%;
+	padding-top: 2em; 
+}
+
+#error_div {
+	text-align: center;
+	font-size: 110%;
+	padding-top: 2em; 
+}
+
+#welcome_div {
+	text-align: center;
+	font-size: 110%;
+	padding-top: 2em; 
+}
+

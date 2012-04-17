@@ -1,0 +1,29 @@
+body {
+	margin-left: 2em;
+	margin-right: 2em;
+	font: 55% Arial, sans-serif;
+	background-color: lightblue;
+}
+
+#user {
+	text-align: center;
+	border-bottom: 1px dotted;
+	font-size: 11px;
+
+}
+
+#user_list {
+	font: 175% Arial, sans-serif;
+}
+
+a:hover {
+	color: yellow;
+	text-decoration: none;
+	background-color: #87b862;
+}
+
+a {
+	color: black;
+}
+
+

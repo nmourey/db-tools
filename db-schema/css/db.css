@@ -1,0 +1,69 @@
+body {
+	margin-left: 5em;
+	margin-right: 5em;
+	font: 76% Arial, sans-serif;
+	background-color: lightblue;
+}
+
+#copyright {
+	position: relative;
+	text-align: center;
+	bottom: 0;
+}
+#title {
+	text-align: center;
+	border-bottom: 1px dotted;
+}
+
+#author {
+	text-align: center;
+
+}
+
+#welcome {
+	font: 12px Arial, sans-serif;
+
+}
+
+table { 
+	padding: 5em;
+	font-family: verdana, sans-serif; 
+	font-size: 12px; 
+	/* width: 550px; */
+	border-collapse: collapse;
+	border: 1px solid;
+}
+ 
+td {
+	/* top bottom left right */
+	padding: 6px 6px 3px 12px;
+	vertical-align: top;
+	border-bottom: 1px solid;
+}
+ 
+th {
+	background-color: olive;
+	color: white;
+	/* top bottom left right */
+	padding: 3px 3px 3px 12px;
+	vertical-align: bottom;
+	text-align: left;
+ 
+}
+ 
+/* .name is used with id="" */
+.odd {
+	background-color: #F3F3A6;
+}
+	
+.even {
+	background-color: #D4D4A2;
+}
+	
+
+a:hover {
+        color: yellow;
+        text-decoration: none;
+        background-color: #87b862;
+}
+
