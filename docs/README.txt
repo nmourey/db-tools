@@ -1,4 +1,4 @@
-Copyright (C) GPLv2 2011 Nathan A. Mourey II <nmoureyii@ne.rr.com>
+Copyright (C) GPLv2 2011, 2012 Nathan A. Mourey II <nmoureyii@ne.rr.com>
 This is the README for the 'MySQL Database Tools' 
 
 This software is redistributable under terms of the GNU GENERAL PUBLIC
@@ -8,14 +8,14 @@ GPLv2.0 License is located in the docs/ directory.
 
 db-tools have been tested :
 
-	CentOS 6.2 32bit and 64bit.
+	CentOS 6.x 32bit and 64bit. (With centos-release-cr installed)
 	Apache/2.2.15 (CentOS)
 	PHP Version 5.3.3
 	MySQL Client version 5.1.52
 	
 
 This software is targeted toward teachers needing a quick means of 
-createing viewing MySQL databases schema's their students have 
+createing databases and viewing schema's their students have 
 created.
 
 Documentation on db-admin and db-schema can be found in the 
