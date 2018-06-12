@@ -1,7 +1,7 @@
 <?php
 
 /*
-	Copyright (C) GPLv2 2011 Nathan A. Mourey II <nmoureyii@ne.rr.com>
+	Copyright (C) GPLv2 2011-2018 Nathan A. Mourey II <nmoureyii@gmail.com>
 
 	Note: The db access methods are not as clean as they could
 	be due to useing an older version of PHP.

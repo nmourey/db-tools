@@ -4,7 +4,7 @@
 
 <?php
 /*
-	Copyright (C) GPLv2 2011 Nathan A. Mourey II <nmoureyii@ne.rr.com>
+	Copyright (C) GPLv2 2011-2018 Nathan A. Mourey II <nmoureyii@gmail.com>
 */
 ?>
 
@@ -18,8 +18,7 @@
 <center>
 	<h2>Welcome to the MySQL Database Tools.</h2>
 	<hr width="400"/>
-	<a href="db-admin/">User Database Creation/Deletion Tool.</a><br/><br/>
+	<a href="db-admin/">User Database Creation Tool.</a><br/><br/>
 	<a href="db-schema/">Database Schema Viewing tool.</a><br/><br/>
-	<a href="/">Back to IT Main page.</a><br/><br/>
 </center>
 </html>

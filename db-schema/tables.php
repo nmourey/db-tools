@@ -2,7 +2,7 @@
 "http://www.w3.org/TR/xhtml1/xhtml1-loose.dtd">
 
 <?php
-	// Copyright (C) GPLv2 2011 Nathan A. Mourey II <nmoureyii@ne.rr.com>
+	// Copyright (C) GPLv2 2011-2018 Nathan A. Mourey II <nmoureyii@gmail.com>
 
 	include "config/functions.php";
 	$q 	= $_REQUEST['q'];

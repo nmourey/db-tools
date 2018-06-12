@@ -4,7 +4,7 @@
 
 <?php
 /*
-	Copyright (C) GPLv2 2011 Nathan A. Mourey II <nmoureyii@ne.rr.com>
+	Copyright (C) GPLv2 2011-2018 Nathan A. Mourey II <nmoureyii@gmail.com>
 */
 ?>
 

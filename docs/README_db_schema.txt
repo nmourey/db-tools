@@ -1,4 +1,4 @@
-Copyright (C) GPLv2 2011 Nathan A. Mourey II <nmoureyii@ne.rr.com>
+Copyright (C) GPLv2 2011-2018 Nathan A. Mourey II <nmoureyii@gmail.com>
 This is the README for the 'MySQL Database Schema Tool' 
 
 This software is redistributable under terms of the GNU GENERAL PUBLIC
@@ -8,6 +8,12 @@ GPLv2.0 License is located in the docs/ directory.
 
 Software tested :
 
+        Fedora 28 64Bit
+        Apache 2.4.33
+        PHP 7.x
+        MariaDB 10.2
+
+        // May or may not work, YMMV
 	CentOS 5.5 32bit.
 	Apache/2.2.3 (CentOS)
 	PHP Version 5.1.6
@@ -62,7 +68,6 @@ function print_form($user_in_db, $uinfo, $name, $password_notice)
 ********************************************************************
 			ACKNOLAGEMENTS
 ********************************************************************
-Joseph J. Barton IV - <joebarton@comcast.net>  UI Testing and spelling.
 
 Function for creating random passwords:
 http://www.totallyphp.co.uk/code/create_a_random_password.htm

@@ -1,4 +1,4 @@
-Copyright (C) GPLv2 2011, 2012 Nathan A. Mourey II <nmoureyii@ne.rr.com>
+Copyright (C) GPLv2 2011-2018 Nathan A. Mourey II <nmoureyii@gmail.com>
 This is the README for the 'MySQL Database Tools' 
 
 This software is redistributable under terms of the GNU GENERAL PUBLIC
@@ -7,6 +7,13 @@ LICENSE version 2.0
 GPLv2.0 License is located in the docs/ directory.
 
 db-tools have been tested :
+
+        Fedora 28 64Bit
+        Apache 2.4.33
+        PHP 7.x
+        MariaDB 10.2
+
+        // May or may not work, YMMV
 
 	CentOS 6.x 32bit and 64bit. (With centos-release-cr installed)
 	Apache/2.2.15 (CentOS)
@@ -55,11 +62,7 @@ point must point to the .htpasswd file.
 ********************************************************************
 			ACKNOLAGEMENTS
 ********************************************************************
-Joseph J. Barton IV - <joebarton@comcast.net>  UI Testing and spelling.
 
 Function for creating random passwords:
 http://www.totallyphp.co.uk/code/create_a_random_password.htm
-
-
-
 
