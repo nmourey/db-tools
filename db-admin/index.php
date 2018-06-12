@@ -15,16 +15,16 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/> 
 	<link rel="stylesheet" type="text/css" href="css/users.css" />
 </head>
-<!-- <?php $host = gethostname() ?> -->
+<?php $host = gethostname() ?>
 
 <center>
-	<!-- <h2>You are currnetly connected to : <?php echo $host; ?></h2> -->
+	<h2>You are currnetly connected to : <?php echo $host; ?></h2>
 	<h2><a href="../">Return to Main MySQL Tools Menu.</a></h2>
 	<table border="1" cellpadding="0">
 		<tr><td valign="top">
 			<iframe frameborder="no" scrolling="yes"  width="300" height="800" name="list" src="users_enter.php" title="iFrame Test."></iframe>
 		</td><td>
-			<iframe frameborder="no" scrolling="yes"  width="900" height="800" name="form" src="main.php" title="iFrame Test."></iframe>
+			<iframe frameborder="no" scrolling="yes"  width="500" height="000" name="form" src="main.php" title="iFrame Test."></iframe>
 		</td></tr>
 	</table>
 </center>

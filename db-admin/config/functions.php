@@ -1,7 +1,7 @@
 <?php
 
 /*
-	Copyright (C) GPLv2 2011 Nathan A. Mourey II <nmoureyii@ne.rr.com>
+	Copyright (C) GPLv2 2011 Nathan A. Mourey II <nmoureyii@gmail.com>
 
 	Note: The db access methods are not as clean as they could
 	be due to useing an older version of PHP.
@@ -30,7 +30,9 @@ $password = "";
  * anything in the /home directorie that you want remove add it to the $remove_list below.
  */
 
-$remove_list = "/map32\.exe|perl|lost\+found|unix|aquota*/";
+$remove_list = "/map32\.exe|perl|toor|lost\+found|unix|aquota*/";
+
+## Successfull inclusion.
 
 /*******************  You should not need to go below this line. **********************/
 
@@ -70,7 +72,7 @@ function get_user_list(){
 	}
 	closedir($dir);
 
-	// alphabeticalize and expancde login to full name.
+	// alphabeticalize and expand login to full name.
 	sort($list_of_names);
 	foreach ($list_of_names as $name){
 		if ($name != "." && $name != ".."){

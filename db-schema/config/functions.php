@@ -47,17 +47,19 @@ function db_connect(){
 
 // Get list of databases on system.
 function get_db_list(){
-	global $hostname;
-	global $username;
-	global $password;
 	global $db_remove_list;
-	
-	$conn = mysql_connect($hostname, $username, $password);
-	$db_list = mysql_list_dbs($conn);
+        $sql = "SHOW DATABASES";
+
+	$conn = db_connect();
+        $result = $conn->query($sql);
+
+        if ( !$result ) {
+                throw new Exception('Could not connect to the database');
+        }
 
 	$html = "<ul id='user_list'>";
-	while ($row = mysql_fetch_object($db_list)) {
-		$db_name = $row->Database;
+        while ($row = $result->fetch_assoc()){
+		$db_name = $row['Database'];
 		if ( !preg_match($db_remove_list, $db_name) ) {
 			$html .= "<li ><a href=\"tables.php?q=$db_name\" target=\"form\">$db_name</a></li>\n";
 		}
@@ -86,26 +88,22 @@ function get_table_list($db_name){
 }
 
 function describe_table($db_table, $db_name){
-	global $hostname;
-	global $username;
-	global $password;
 	$color = true;
 	
-	$conn = mysql_connect($hostname, $username, $password, $db_name);
-	mysql_select_db($db_name);
+	$conn = db_connect();
+	$conn->select_db($db_name);
 
 	$q = sprintf("SHOW COLUMNS FROM `%s`", $db_table);
+	$result = $conn->query($q) or die('Query failed. ' . mysql_error());
 
-	$result = mysql_query($q) or die('Query failed. ' . mysql_error());
 	$html = "<div><center><h3>Schema for table $db_table</h3></center></div>";
-
 	$html .= "<div id=\"fields\"><p/><center><table cellpadding=\"0\" cellspaceing=\"0\"><thead><tr><th>Field</th><th>Type</th><th>Null</th><th>Key</th><th>Default</th><th>Extra</th><thead><tbody>";
-	while ($row = mysql_fetch_assoc($result) ) {
+	while ($row = $result->fetch_row() ) {
 		if ($color){
-			$html .= "<tr class=\"even\"><td>$row[Field]</td><td>$row[Type]</td><td>$row[Null]</td><td>$row[Key]</td><td>$row[Default]</td><td>$row[Extra]</td></tr>";
+			$html .= "<tr class=\"even\"><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td><td>$row[3]</td><td>$row[4]</td><td>$row[5]</td></tr>";
 			$color = false;
 		} else {
-			$html .= "<tr class=\"odd\"><td>$row[Field]</td><td>$row[Type]</td><td>$row[Null]</td><td>$row[Key]</td><td>$row[Default]</td><td>$row[Extra]</td></tr>";
+			$html .= "<tr class=\"odd\"><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td><td>$row[3]</td><td>$row[4]</td><td>$row[5]</td></tr>";
 			$color = true;
 		}
 	}

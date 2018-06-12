@@ -1,5 +1,5 @@
 MySQL Database Tools.  
-Copyright © 2011, 2012 Nathan A. Mourey II <nmoureyii@ne.rr.com>
+Copyright © 2011-2018 Nathan A. Mourey II <nmoureyii@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -15,6 +15,12 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 -------------------------------------------------------------------------------
+
+* Jun 12th 2018
+Cleaned up db-schema to work with PHP 7.x I haven't checked backwards
+compatability with PHP 5.x It should work but your milage may very.
+
+
 
 MySQL Databases Tools.  These are some tools that allow you to simply 
 view database schemas and create databases for individual users.  These

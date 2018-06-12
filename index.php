@@ -18,7 +18,7 @@
 <center>
 	<h2>Welcome to the MySQL Database Tools.</h2>
 	<hr width="400"/>
-	<a href="db-admin/">User Database Creation Tool.</a><br/><br/>
+	<a href="db-admin/">User Database Creation/Deletion Tool.</a><br/><br/>
 	<a href="db-schema/">Database Schema Viewing tool.</a><br/><br/>
 	<a href="/">Back to IT Main page.</a><br/><br/>
 </center>
